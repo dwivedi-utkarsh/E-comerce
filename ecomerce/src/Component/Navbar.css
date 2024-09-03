@@ -1,0 +1,23 @@
+/* Navbar.css */
+
+/* Ensure the second navbar items are aligned in a single line on larger screens */
+.second-navbar {
+  padding: 10px 0;
+}
+
+.second-navbar .nav {
+  gap: 15px;
+}
+
+/* Make the navbar items responsive */
+@media (max-width: 576px) {
+  .second-navbar .nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+/* Customize the dropdown menu */
+.dropdown-menu {
+  min-width: 8rem;
+}

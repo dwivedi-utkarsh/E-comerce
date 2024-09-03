@@ -1,0 +1,68 @@
+.home-container {
+  margin-top: 20px;
+}
+
+.category-products h1 {
+  margin-bottom: 20px;
+}
+
+.category-products ul {
+  padding: 0;
+  margin: 0;
+}
+
+.category-products li {
+  list-style: none;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.category-products li:hover {
+  color: #007bff; /* Bootstrap's primary color */
+}
+
+.our-products .card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  transition: box-shadow 0.3s;
+}
+
+.our-products .card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.our-products .card img.full-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+}
+
+.our-products .card-body {
+  padding: 15px;
+  text-align: center;
+}
+
+.our-products .btn {
+  margin-top: 10px;
+  width: 48%;
+}
+
+.our-products .btn-primary {
+  background-color: #007bff; /* Add to Cart button color */
+  border: none;
+}
+
+.our-products .btn-primary:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+.our-products .btn-secondary {
+  background-color: #6c757d; /* View button color */
+  border: none;
+}
+
+.our-products .btn-secondary:hover {
+  background-color: #5a6268; /* Darker shade on hover */
+}

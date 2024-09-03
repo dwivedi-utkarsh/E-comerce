@@ -1,0 +1,35 @@
+.first-heading {
+    border-top: 4px solid rgb(216, 38, 38); /* Top border in red */
+    border: 1px solid rgb(216, 38, 38);
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box; /* Ensures padding is included in the width */
+  }
+  
+  .first-heading h1 {
+    font-size: 24px; /* Default size for mobile */
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  @media (min-width: 640px) {
+    /* Tablet (sm) */
+    .first-heading h1 {
+      font-size: 28px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    /* Laptop (md) */
+    .first-heading h1 {
+      font-size: 32px;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    /* Larger devices (lg) */
+    .first-heading h1 {
+      font-size: 36px;
+    }
+  }
+  
